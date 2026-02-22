@@ -1,21 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
     text-align: center;
 }
 
 header {
-    background: #222;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
     color: white;
-    padding: 20px;
+    padding: 40px 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #2a5298;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
 }
 
 section {
-    padding: 20px;
-    margin: 20px;
+    margin: 30px auto;
+    padding: 25px;
     background: white;
-    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 ul {
@@ -24,11 +43,20 @@ ul {
 }
 
 li {
-    margin: 5px 0;
+    margin: 8px 0;
+}
+
+.project {
+    margin-top: 15px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
 }
 
 footer {
     background: #222;
     color: white;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 30px;
+}dding: 10px;
+
 }
