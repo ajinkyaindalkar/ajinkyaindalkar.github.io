@@ -60,3 +60,22 @@ footer {
 }dding: 10px;
 
 }
+/* Dark Mode Styles */
+
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.dark-mode section {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode header {
+    background: linear-gradient(135deg, #000000, #434343);
+}
+
+.dark-mode footer {
+    background: #000;
+}
